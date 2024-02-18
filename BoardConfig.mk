@@ -145,7 +145,6 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
 # Workaround for error copying vendor files to recovery ramdisk
-BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
 # TWRP
