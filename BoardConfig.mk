@@ -131,7 +131,7 @@ SELINUX_IGNORE_NEVERALLOWS := true
 BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
 
 # SaR
-BOARD_ROOT_EXTRA_FOLDERS := cache carrier data_mirror efs keyrefuge linkerconfig metadata omr optics prism spu
+BOARD_ROOT_EXTRA_FOLDERS := cache metadata
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Android Verified Boot
