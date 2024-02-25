@@ -1,10 +1,16 @@
 # Release name
 PRODUCT_RELEASE_NAME := x306x
 
+# Inherit some AOSP stuffs
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 # Inherit Lineage common stuff
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/lineage/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
+$(call inherit-product, vendor/lineage/config/telephony.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lenovo/x306x/device.mk)

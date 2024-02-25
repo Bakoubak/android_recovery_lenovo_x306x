@@ -1,4 +1,6 @@
 DEVICE_PATH := device/lenovo/x306x
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Screen density
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 800
