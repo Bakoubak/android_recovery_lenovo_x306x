@@ -1,3 +1,4 @@
+DEVICE_PATH := device/lenovo/x306x
 # Screen density
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 800
